@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <title>
+    Admin Home
+  </title>
+
+  <body> 
+    <!-- Dropdown Structure -->
+
+    <nav class="blue accent-4">
+        <div class="container absolute">
+            <div class="nav-wrapper">
+            <img src="assets/Logo-Guild.png" width="209" height="65"></img>
+            <logo href="#!" class="brand-logo"> </logo>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="Admin.html">Home</a></li>
+                <li><a href="index.html">Logout</a></li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-nav">
+    <li><a href="Admin.html">Home</a></li>
+    <li><a href="index.html">Logout</a></li>
+    </ul>
+
+    <!-- Page Layout -->
+    
+    <div class="row">
+        <div class="col s12 l3 center-align">
+            <div class="card blue accent-4">
+                <div class="card-content white-text">
+                    <i class="large material-icons" style="align-items: center; justify-content: center;">account_circle</i>
+                    <span class="card-title"><b>Admin</b></span>
+                    <br>
+                    <p>Username: kirastacey25 <br>
+                    Display Name: Kira Stacey <br>
+                    Gender: Female <br>
+                    Address: Indonesia <br>
+                    Phone: +62812 0000 0000
+                    </p>
+                </div>
+                <a href="#">
+                    <btn class="waves-effect waves-light btn-small white blue-text link-button" style="margin-bottom: 10px;">
+                        <b>
+                        Edit Profile
+                        </b>
+                    </btn>
+                </a>
+                <br>
+            </div>
+        </div>
+
+        <div class="col s12 l9">
+            <h2 style="margin-inline: 10px;">Hello, Kira!</h2><br>
+            <h5 style="margin-inline: 10px; margin-top:20px;">Daily Statistics</h5>
+            <div class="row center-align">
+                <div class="center-align">
+                <div class="col s12 l3 center-align" style="margin-top:10px">
+                    <div class="card indigo accent-1" style="border-radius:20px;">
+                        <div class="card-content black-text">
+                            <span class="card-title" style="text-align: center;"><b>Visitors</b></span>
+                            <h4 style="text-align: center;">2.508</h4>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col s12 l3 center-align" style="margin-top:10px">
+                    <div class="card indigo accent-1" style="border-radius:20px;">
+                        <div class="card-content black-text">
+                            <span class="card-title" style="text-align: center;"><b>Members</b></span>
+                            <h4 style="text-align: center;">2.208</h4>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col s12 l3 center-align" style="margin-top:10px">
+                    <div class="card indigo accent-1" style="border-radius:20px;">
+                        <div class="card-content black-text">
+                            <span class="card-title" style="text-align: center;"><b>Profit</b></span>
+                            <h4 style="text-align: center;">25.228.000</h4>
+                        </div>
+                    </div> 
+                </div>
+                </div>
+            </div>
+        </div>
+    <br>
+    </div>
+    <br>
+    <div class="row" style="margin-top: 30px;">
+        <h1 style="text-align: center;">Member List</h1>
+        <table class="centered responsive-table">
+            <thead>
+              <tr>
+                  <th>No</th>
+                  <th>Username</th>
+                  <th>Full Name</th>
+                  <th>Rank</th>
+                  <th>Finished Job</th>
+              </tr>
+            </thead>
+    
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>reynaf25</td>
+                <td>Reyna Fiorra</td>
+                <td>Platinum</td>
+                <td>2508</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>serenaseirra</td>
+                <td>Serena Seirra</td>
+                <td>Platinum</td>
+                <td>2352</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>sabrinavell</td>
+                <td>Sabrina Vellina</td>
+                <td>Platinum</td>
+                <td>2203</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>kanaya.shea</td>
+                <td>Kanaya Shearra</td>
+                <td>Platinum</td>
+                <td>2052</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>sastranaladitya</td>
+                <td>Sastranala Aditya</td>
+                <td>Platinum</td>
+                <td>1862</td>
+              </tr>
+            </tbody>
+          </table>
+    <br>
+    <ul class="pagination center-align">
+        <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+        <li class="active blue accent-4"><a href="#!">1</a></li>
+        <li class="waves-effect"><a href="#!">2</a></li>
+        <li class="waves-effect"><a href="#!">3</a></li>
+        <li class="waves-effect"><a href="#!">4</a></li>
+        <li class="waves-effect"><a href="#!">5</a></li>
+        <li class="waves-effect"><a href="#!">6</a></li>
+        <li class="waves-effect"><a href="#!">7</a></li>
+        <li class="waves-effect"><a href="#!">8</a></li>
+        <li class="waves-effect"><a href="#!">9</a></li>
+        <li class="waves-effect"><a href="#!">10</a></li>
+        <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+    </ul>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+        <h1 style="text-align: center;">Job List</h1>
+        <h4 style="text-align: center;">Posted</h4>
+        <div class="col s12 l4">
+            <div class="card indigo accent-1 center-align">
+                <div class="card-content black-text">
+                    <span class="card-title"><b>Content Writer</b></span>
+                    <br>
+                    <p> Write a content for website about entertainment<br><br>
+                        Issuer: wannaone07<br>
+                        Minimum Rank: Silver<br>
+                        Reward: 250.000
+                        Time Remain:6d 5h<br>
+                    </p>
+                </div>
+                <a href="#">
+                    <btn class="waves-effect waves-light btn-small white blue-text link-button" style="margin-bottom: 10px;">
+                        <b>
+                          Detail
+                        </b>
+                    </btn>
+                </a>
+                <a href="#">
+                    <btn class="waves-effect waves-light btn-small red white-text link-button" style="margin-bottom: 10px;">
+                        <b>
+                          Delete
+                        </b>
+                    </btn>
+                </a>
+            </div>
+        </div>
+
+        <div class="col s12 l4">
+            <div class="card indigo accent-1 center-align">
+                <div class="card-content black-text">
+                    <span class="card-title"><b>Storyboard</b></span>
+                    <br>
+                    <p> Make a storyboard from movie script.(Short Movie)<br><br>
+                        Issuer: ghea.ferra<br>
+                        Minimum Rank: Platinum<br>
+                        Reward: 300.000
+                        Time Remain:9d 5h<br>
+                    </p>
+                </div>
+                <a href="#">
+                    <btn class="waves-effect waves-light btn-small white blue-text link-button" style="margin-bottom: 10px;">
+                        <b>
+                          Detail
+                        </b>
+                    </btn>
+                </a>
+                <a href="#">
+                    <btn class="waves-effect waves-light btn-small red white-text link-button" style="margin-bottom: 10px;">
+                        <b>
+                          Delete
+                        </b>
+                    </btn>
+                </a>
+            </div>
+        </div>
+
+            
+        <div class="col s12 l4">
+            <div class="card indigo accent-1 center-align">
+                <div class="card-content black-text">
+                    <span class="card-title"><b>Inphografic Poster</b></span>
+                        <br>
+                        <p> Create an inphographic poster. The theme is ocean.<br><br>
+                            Issuer: shera087<br>
+                            Minimum Rank: Bronze<br>
+                            Reward: 250.000
+                            Time Remain:6d 1h<br>
+                        </p>
+                </div>
+                    <a href="#">
+                        <btn class="waves-effect waves-light btn-small white blue-text link-button" style="margin-bottom: 10px;">
+                            <b>
+                              Detail
+                            </b>
+                        </btn>
+                    </a>
+                    <a href="#">
+                        <btn class="waves-effect waves-light btn-small red white-text link-button" style="margin-bottom: 10px;">
+                            <b>
+                              Delete
+                            </b>
+                        </btn>
+                    </a>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+
+        <ul class="pagination center-align">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active blue accent-4"><a href="#!">1</a></li>
+            <li class="waves-effect"><a href="#!">2</a></li>
+            <li class="waves-effect"><a href="#!">3</a></li>
+            <li class="waves-effect"><a href="#!">4</a></li>
+            <li class="waves-effect"><a href="#!">5</a></li>
+            <li class="waves-effect"><a href="#!">6</a></li>
+            <li class="waves-effect"><a href="#!">7</a></li>
+            <li class="waves-effect"><a href="#!">8</a></li>
+            <li class="waves-effect"><a href="#!">9</a></li>
+            <li class="waves-effect"><a href="#!">10</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+
+    </div>
+    <br>
+    <br>
+    <div class="row" style="margin-top: 30px;">
+        <h4 style="text-align: center;">Taken</h4>
+        <div class="col s12 l4">
+            <div class="card indigo accent-1 center-align">
+                <div class="card-content black-text">
+                    <span class="card-title"><b>Document Translate</b></span>
+                    <br>
+                    <p> Translate document from English to Indonesian.<br><br>
+                        Issuer: safira20<br>
+                        Minimum Rank: Silver<br>
+                        Reward: 100.000
+                        Taken by: rhea08<br>
+                    </p>
+                </div>
+                <a href="#">
+                    <btn class="waves-effect waves-light btn-small white blue-text link-button" style="margin-bottom: 10px;">
+                        <b>
+                          Detail
+                        </b>
+                    </btn>
+                </a>
+            </div>
+        </div>
+
+        <div class="col s12 l4">
+            <div class="card indigo accent-1 center-align">
+                <div class="card-content black-text">
+                    <span class="card-title"><b>Event Poster</b></span>
+                    <br>
+                    <p> Make an event poster.<br><br>
+                        Issuer: felly.w09<br>
+                        Minimum Rank: Iron<br>
+                        Reward: 75.000
+                        Taken by: Nia_A12<br>
+                    </p>
+                </div>
+                <a href="#">
+                    <btn class="waves-effect waves-light btn-small white blue-text link-button" style="margin-bottom: 10px;">
+                        <b>
+                          Detail
+                        </b>
+                    </btn>
+                </a>
+            </div>
+        </div>
+
+            
+        <div class="col s12 l4">
+            <div class="card indigo accent-1 center-align">
+                <div class="card-content black-text">
+                    <span class="card-title"><b>Story Editing</b></span>
+                        <br>
+                        <p> Editor for a short story<br><br>
+                            Issuer: Novana.01<br>
+                            Minimum Rank: Gold<br>
+                            Reward: 150.000
+                            Taken by: Celline23<br>
+                        </p>
+                </div>
+                    <a href="#">
+                        <btn class="waves-effect waves-light btn-small white blue-text link-button" style="margin-bottom: 10px;">
+                            <b>
+                              Detail
+                            </b>
+                        </btn>
+                    </a>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+
+
+
+        <ul class="pagination center-align">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active blue accent-4"><a href="#!">1</a></li>
+            <li class="waves-effect"><a href="#!">2</a></li>
+            <li class="waves-effect"><a href="#!">3</a></li>
+            <li class="waves-effect"><a href="#!">4</a></li>
+            <li class="waves-effect"><a href="#!">5</a></li>
+            <li class="waves-effect"><a href="#!">6</a></li>
+            <li class="waves-effect"><a href="#!">7</a></li>
+            <li class="waves-effect"><a href="#!">8</a></li>
+            <li class="waves-effect"><a href="#!">9</a></li>
+            <li class="waves-effect"><a href="#!">10</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+
+    <div class="row" style="margin-top: 30px;">
+        <h4 style="text-align: center;">Finished</h4>
+        <div class="col s12 l4">
+            <div class="card indigo accent-1 center-align">
+                <div class="card-content black-text">
+                    <span class="card-title"><b>Story Translate</b></span>
+                    <br>
+                    <p> Translate a story from Indonesian to English.<br><br>
+                        Issuer: MellianaM<br>
+                        Reward: 100.000
+                        Taken by: Novella42<br>
+                    </p>
+                </div>
+                <a href="#">
+                    <btn class="waves-effect waves-light btn-small white blue-text link-button" style="margin-bottom: 10px;">
+                        <b>
+                          Detail
+                        </b>
+                    </btn>
+                </a>
+            </div>
+        </div>
+
+        <div class="col s12 l4">
+            <div class="card indigo accent-1 center-align">
+                <div class="card-content black-text">
+                    <span class="card-title"><b>Catalogue Design</b></span>
+                    <br>
+                    <p> Make a fashion catalogue design.<br><br>
+                        Issuer: Vania_F<br>
+                        Reward: 300.000
+                        Taken by: Sena_N<br>
+                    </p>
+                </div>
+                <a href="#">
+                    <btn class="waves-effect waves-light btn-small white blue-text link-button" style="margin-bottom: 10px;">
+                        <b>
+                          Detail
+                        </b>
+                    </btn>
+                </a>
+            </div>
+        </div>
+
+            
+        <div class="col s12 l4">
+            <div class="card indigo accent-1 center-align">
+                <div class="card-content black-text">
+                    <span class="card-title"><b>Short Story</b></span>
+                        <br>
+                        <p> Make a short story. (min 5.000 words)<br><br>
+                            Issuer: Genevieve_ <br>
+                            Reward: 150.000
+                            Taken by: JaniceA12<br>
+                        </p>
+                </div>
+                    <a href="#">
+                        <btn class="waves-effect waves-light btn-small white blue-text link-button" style="margin-bottom: 10px;">
+                            <b>
+                              Detail
+                            </b>
+                        </btn>
+                    </a>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+
+
+
+        <ul class="pagination center-align">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active blue accent-4"><a href="#!">1</a></li>
+            <li class="waves-effect"><a href="#!">2</a></li>
+            <li class="waves-effect"><a href="#!">3</a></li>
+            <li class="waves-effect"><a href="#!">4</a></li>
+            <li class="waves-effect"><a href="#!">5</a></li>
+            <li class="waves-effect"><a href="#!">6</a></li>
+            <li class="waves-effect"><a href="#!">7</a></li>
+            <li class="waves-effect"><a href="#!">8</a></li>
+            <li class="waves-effect"><a href="#!">9</a></li>
+            <li class="waves-effect"><a href="#!">10</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+    </div>
+
+    <footer class="page-footer blue accent-4">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Adress & Contact</h5>
+            <p class="grey-text text-lighten-4">Apartment Gading Nias, Alamanda Tower. Jakarta Utara, Indonesia.
+              <br>
+              0854-0000-0000
+              <br>
+              altaircmmnty@gmail.com</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <a href="#"><h6 class="white-text">Discussion Forum</h6></a>
+            <a href="#"><h6 class="white-text">News</h6></a>
+            <a href="#"><h6 class="white-text">Privacy Policy</h6></a>
+            <a href="#"><h6 class="white-text">FAQ</h6></a>
+          </div>
+        </div>
+      <div class="footer-copyright">
+        <div class="container">
+        <a class="grey-text text-lighten-4 right" href="#!">© 2020 Altair Community. All Rights Reserved</a>
+        </div>
+      </div>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script>
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+    </script>
+    <script>
+        const dropDown = document.querySelectorAll('.dropdown-trigger');
+        M.Dropdown.init(dropDown);
+    </script>
+  </body>
+</html>
